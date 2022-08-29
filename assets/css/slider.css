@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+}
+
+.slider {
+    padding: 20px 40px;
+}
+.slider-main {
+    text-align: center;
+    overflow: hidden;
+}
+.slider img {
+    border-radius: 1rem;
+}
+.slider-item {
+    flex: 1 0 100%;
+}
+.slider-dot-item {
+    display: none;
+}
+.slider-next {
+    right: 4%;
+}
+.slider-prev {
+    left: 4%;
+}
+.slider-next, .slider-prev {
+    font-size: 2rem;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}

@@ -1,0 +1,351 @@
+@media screen and (min-width: 1201px) {
+    
+}
+@media screen and (min-width: 1025px) and (max-width: 1200px){
+    ul.flex {
+        display: none;
+    }
+    .ti-menu {
+        display: block;
+    }
+    .form-h {
+        display: none;
+    }
+    div .text-center {
+        width: 100%;
+    }
+    .container-1 {
+        display: flex;
+        flex-wrap: wrap-reverse;
+        height: 1000px;
+    }
+    .card-body {
+        width: 100%;    
+    }
+    .btn {
+        position: relative;
+        right: 0;
+        margin-top: 1rem;
+        margin-left: 0;
+    }
+    #sec1 {
+        height: 0px;
+    }
+    .ti-location-pin {
+        top: 40px;
+    }
+    .form-b-start {
+        flex-wrap: wrap;
+    }
+    .form-b-start > input {
+        width: 84%;
+    }
+    #sec2 {
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        height: 2200px;
+    }
+    .main-discount {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .sec3-f {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    #footer {
+        padding: 40px 5% 0;
+    }
+    #footer > .flex {
+        flex-wrap: wrap;
+    }
+    .slider-item img {
+        width: 60%;
+    }
+}
+@media screen and (min-width: 961px) and (max-width: 1024px) {
+    .lightbox-content img {
+        object-fit: cover;
+        width: 600px;
+        border-radius: 1rem;
+    }
+    .slider img {
+        width: 100%;
+    }
+    .card-body {
+        width: 185%;    
+    }
+    .img-banner {
+        align-items: center;
+        width: 50%; 
+        justify-content: end;
+    }
+} 
+@media screen and (min-width: 481px) and (max-width: 960px)  {
+    .fl-icon span {
+        display: none;
+    }
+    h3 {
+        font-size: 15px;
+    }
+    .time-out-base>p {
+        font-size: 15px;
+    }
+    .time-out-base {
+        margin: 10px 0;
+        background-color: var(--al-org);
+        width: 90%;
+        height: 40px;
+    }
+    #sec1 {
+        height: 460px;
+    }
+    .card-body {
+        width: 100%;
+    }
+    .text-center {
+        width: 56%;
+        padding: 4rem 0 0;
+    }
+    .container-1 {
+        padding: 0;
+        flex-direction: row-reverse;
+        justify-content: left;
+        height: 460px;
+    }
+    .container-s2 {
+        padding: 0;
+    }
+    .detials-dis {
+        font-size: 30px;
+    }
+    .detials-dis span {
+        font-size: 30px;
+    }
+    ul.flex {
+        display: none;
+    }
+    .title-dis {
+        font-size: 30px;
+        padding: 0;
+        padding-top: 20px;
+    }
+    .img-banner {
+        align-items: center;
+        width: 40%;
+    }
+    .img-banner img {
+        margin-top: 10px;
+    }
+    .img-banner img:hover {
+        transform: translateY(-5rem);
+        transition: transform 1s ease;
+    }
+    .item-dis img {
+        border-radius: 1rem;
+        width: 90%;
+    }
+    .text-h1 {
+        font-size: 48px;
+        line-height: 64px;
+    }
+    .text-h2 {
+        font-size: 20px;
+    }
+    .nav-tab {
+        justify-content: center;
+        margin: 0 24px;
+    }
+    .form-b-start {
+        margin: 0 24px;
+    }
+    .lightbox-content img {
+        width: 600px;
+    }
+    .lightbox-content i {
+        font-size: 4rem;
+    }
+    .dis-banner {
+        border-radius: 0 1.2rem 0 .8rem;
+        background-color: #FFB30E;
+        height: 4rem;
+        width: 4rem;
+        bottom: 0;
+        margin-left: 4px;
+        text-align: center;
+
+    }
+    .sec3 {
+        margin: 0 20px 0 20px;
+        padding: 0 0 20px 0;
+    }
+    h2.mgbt-64 {
+        color: var(--red-org);
+        font-size: 30px;
+        margin: 10px;
+    }
+    
+    .slider {
+        padding: 0;
+        height: 370px;
+    }
+    .slider img {
+        width: 100%;
+        border-radius: 0;
+    }
+    
+
+}
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    html {
+        font-size: 12px;
+    }
+    #header, .header {
+        height: 60px;
+    }
+    .container-h {
+        line-height: 60px;
+    }
+    .logo-page {
+        margin-top: 8px;
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
+    .checkbtn {
+        display: block;
+    }
+    .slider {
+        height: 180px;
+        padding: 20px 40px;
+    }
+    .slider-item img {
+        width: 100%;
+    }
+    .lightbox-content img {
+        object-fit: cover;
+        width: 80%;
+        border-radius: .5rem;
+    }
+    ul.flex {
+        display: none;
+    }
+    div .text-center {
+        width: 100%;
+    }
+    .container-1 {
+        display: flex;
+        flex-wrap: wrap-reverse;
+        height: 1000px;
+    }
+    .card-body {
+        width: 100%;    
+    }
+    .btn {
+        position: relative;
+        right: 0;
+        margin-top: 1rem;
+        margin-left: 0;
+    }
+    #sec1 {
+        height: 1020px;
+    }
+    .ti-location-pin {
+        top: 35px;
+    }
+    .form-b-start {
+        flex-wrap: wrap;
+        margin: 0;
+        justify-content: center;
+    }
+    .form-b-start > input {
+        width: 74%;
+    }
+    .ti-location-pin {
+        left: 20px;
+    }
+    .title-dis {
+        font-size: 30px;
+        padding-top: 10px;
+    }
+    .dis-banner {
+        border-radius: 0 1.2rem 0 .8rem;
+        background-color: #FFB30E;
+        height: 3rem;
+        width: 3rem;
+        bottom: 0;
+        margin-left: 4px;
+        text-align: center;
+    }
+    .time-out-base>p {
+        font-size: 12px;
+    }
+    .time-out-base {
+        width: 33.333%;
+    }
+    .info-dis {
+        padding: 10px 0 0;
+    }
+    .detials-dis {
+        font-size: 2rem;
+    }
+    .sec3-f {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .sec3 {
+        padding: 0;
+        margin: 0;
+    }
+    h2.mgbt-64 {
+        font-size: 2rem;
+    }
+    .text-align.pdrl-16 {
+        width: 33.4%;
+    }
+    .text-align.pdrl-16 img {
+        width: 3rem;
+    }
+    .decr-s3 {
+        padding: 0;
+    }
+    #Popular-Items {
+        font-size: 24px;
+        text-align: center;
+        padding: 20px;
+    }
+    .popular-list {
+        flex-wrap: nowrap;
+    }
+    .popular-inf img {
+        width: 94%;
+        border-radius: 1rem;
+    }
+    #footer {
+        padding: 40px 5% 0;
+    }
+    #footer > .flex {
+        flex-wrap: wrap;
+    }
+    .fl-icon {
+        display: flex;
+        flex-direction: column;
+    }
+    #footer > .flex {
+        justify-content: center;
+    }
+    .box-footer {
+        width: 33.3333%;
+        align-items: center;
+    }
+    .follow-us >
+    #follow-usId, h5 {
+        display: none;
+    }
+    .ti-facebook, .ti-twitter-alt {
+        margin: 100px 0;
+        padding: 0;
+    }
+    
+
+}

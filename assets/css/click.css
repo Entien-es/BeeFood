@@ -1,0 +1,16 @@
+.container-h.flex.position-re > .flex a:hover {
+    border-bottom: 1px solid var(--red-org);
+    border-top: 1px solid var(--red-org);
+}
+.nav-tab .border-none:focus {
+    background-color: #FDE9DE;
+    color: var(--red-org);
+}
+.form-b-start>input:focus {
+    outline: 0;
+    box-shadow: 0 0 0 .25rem var(--gold2);
+}
+.input-header:focus {
+    outline: 0;
+    box-shadow: 0 0 0 .25rem var(--gold2);
+}
