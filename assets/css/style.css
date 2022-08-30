@@ -420,8 +420,7 @@ h2.mgbt-64 {
 }
 .popular-list {
     width: 100%;
-    justify-content: space-around;
-    flex-wrap: wrap;
+    overflow: hidden;
 }
 
 /**
