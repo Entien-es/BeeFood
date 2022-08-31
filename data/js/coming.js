@@ -1,4 +1,4 @@
-const test = document.querySelectorAll("#footer a, button");
+const test = document.querySelectorAll("#footer a,#footer button");
 test.forEach((item) => item.addEventListener("click", messageComingSoon));
 
 function messageComingSoon() {
