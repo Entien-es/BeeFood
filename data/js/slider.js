@@ -23,7 +23,6 @@ window.addEventListener("load", function () {
             posX -= sliderItemWidth;
             sliderMain.style = `transform: translateX(${posX}px)`;
             index++;
-            console.log(index);
         } else if (direction === -1) {
             index--;
             if (index < 0) {
@@ -32,9 +31,6 @@ window.addEventListener("load", function () {
             }
             posX += sliderItemWidth;
             sliderMain.style = `transform: translateX(${posX}px)`;
-            console.log(index);
         }
     }
-
-
 });
