@@ -206,7 +206,20 @@
         height: 60px;
     }
     .container-h {
+        font-size: 20px;
         line-height: 60px;
+    }
+    ul.menu-header li {
+        padding: 0;
+    }
+    .flex>li>a {
+        color: white;
+        display: block;
+    }
+    .container-h.flex.position-re > .flex a:hover {
+        font-size: 24px;
+        color: var(--red-org);
+        background-color: white;
     }
     .logo-page {
         margin-top: 8px;
@@ -216,20 +229,40 @@
     .checkbtn {
         display: block;
     }
-    .slider {
-        height: 180px;
-        padding: 20px 40px;
+    .slider-item {
+        padding: 0 5%;
     }
     .slider-item img {
-        width: 100%;
+        width: 90vw;
+    }
+    .slider-dot {
+        bottom: 0;
+    }
+    .slider-next, .slider-prev {
+        font-size: 50px;
+        
+    }
+    .slider-prev {
+        left: 0;
+    }
+    .slider-next {
+        right: 0;
     }
     .lightbox-content img {
         object-fit: cover;
         width: 80%;
         border-radius: .5rem;
     }
-    ul.flex {
-        display: none;
+    ul.menu-header {
+        top: 60px;
+        flex-direction: column;
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        left: -100%;
+        transition: all .2s;
+        background: #2c3e40;
+        text-align: center;
     }
     div .text-center {
         width: 100%;
@@ -265,6 +298,14 @@
     .ti-location-pin {
         left: 20px;
     }
+    #Daily-Discount {
+        font-size: 3.5rem;
+        color: var(--red-org);
+    }
+    .main-discount {
+        flex-wrap: wrap;
+    }
+    
     .title-dis {
         font-size: 30px;
         padding-top: 10px;
@@ -272,23 +313,28 @@
     .dis-banner {
         border-radius: 0 1.2rem 0 .8rem;
         background-color: #FFB30E;
-        height: 3rem;
-        width: 3rem;
-        bottom: 0;
-        margin-left: 4px;
-        text-align: center;
+        height: 15vh;
+        width: 30vw;
+    }
+   
+    .item-dis img {
+        width: 100%;
     }
     .time-out-base>p {
-        font-size: 12px;
+        font-size: 30px;
     }
     .time-out-base {
-        width: 33.333%;
+        width: 100%;
+        height: 50px;
     }
     .info-dis {
-        padding: 10px 0 0;
+        padding-top: 1rem;
+    }
+    .info-dis h3 {
+        font-size: 2.5rem;
     }
     .detials-dis {
-        font-size: 2rem;
+        font-size: 5rem;
     }
     .sec3-f {
         flex-wrap: wrap;
@@ -299,28 +345,31 @@
         margin: 0;
     }
     h2.mgbt-64 {
-        font-size: 2rem;
+        font-size: 3.5rem;
     }
     .text-align.pdrl-16 {
-        width: 33.4%;
+        width: 50%;
     }
     .text-align.pdrl-16 img {
         width: 3rem;
     }
     .decr-s3 {
+        font-size: 2rem;
         padding: 0;
     }
     #Popular-Items {
-        font-size: 24px;
+        font-size: 3.5rem;
         text-align: center;
         padding: 20px;
     }
     .popular-list {
-        flex-wrap: nowrap;
+        flex-wrap: wrap;
+        justify-content: center;
     }
     .popular-inf img {
-        width: 94%;
+        width: 90vw;
         border-radius: 1rem;
+        padding: 0;
     }
     #footer {
         padding: 40px 5% 0;

@@ -168,10 +168,12 @@ html {
     line-height: 80px;
     background-color: rgba(255, 153, 0, .3);
     justify-content: space-around;
+
 }
 
 ul.menu-header li {
     padding: 0 16px;
+    
 }
 
 .flex>li>a {
@@ -179,6 +181,9 @@ ul.menu-header li {
 }
 #check {
     display: none;
+}
+#check:checked ~ ul {
+    left: 0;
 }
 .checkbtn {
     font-size: 30px;
@@ -385,10 +390,6 @@ ul.menu-header li {
     margin: 0 16%;
 }
 
-.sec3-f {
-    flex-wrap: nowrap;
-}
-
 .sb-sec3>div {
     margin: 48px 232px;
     min-width: 185px;
@@ -424,7 +425,7 @@ h2.mgbt-64 {
 }
 .popular-inf img {
     width: 100%;
-    border-radius: 1rem;
+    border-radius: 2rem;
     padding: 10px;
 }
 
@@ -432,7 +433,7 @@ h2.mgbt-64 {
  * Footer
  */
 #footer {
-    padding: 40px 10% 0;
+    padding: 40px 10%;
     background-color: #181818;
     color: #eee;
 }
