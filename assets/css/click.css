@@ -1,6 +1,5 @@
 .container-h.flex.position-re > .flex a:hover {
     border-bottom: 1px solid var(--red-org);
-    border-top: 1px solid var(--red-org);
 }
 .nav-tab .border-none:focus {
     background-color: #FDE9DE;

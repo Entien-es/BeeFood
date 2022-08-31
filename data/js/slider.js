@@ -43,5 +43,7 @@ window.addEventListener("load", function () {
             posX += sliderItemWidth;
             sliderMain.style = `transform: translateX(${posX}px)`;
         }
+        [...dotItems].forEach((re) => re.classList.remove("activeSlide"))
+        dotItems[index].classList.add("activeSlide");
     }
 });
