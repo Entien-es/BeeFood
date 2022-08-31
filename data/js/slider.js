@@ -1,5 +1,4 @@
 window.addEventListener("load", function () {
-    const slider = document.querySelector(".slider");
     const sliderMain = document.querySelector(".slider-main");
     const sliderItem = document.querySelectorAll(".slider-item");
     const nextSliderBtn = document.querySelector(".slider-next");
@@ -18,7 +17,6 @@ window.addEventListener("load", function () {
             index = dotIdex;
             posX = -index * sliderItemWidth;
             sliderMain.style = `transform: translateX(${posX}px)`;
-        
         })
     );
     nextSliderBtn.addEventListener("click", function() {
@@ -27,14 +25,14 @@ window.addEventListener("load", function () {
     prevSliderBtn.addEventListener("click", function() {
         changeSlides(-1);
     });
-    function changeSlides(direction) {
-        if (direction === 1) {
+    function changeSlides(changed) {
+        if (changed === 1) {
             if (index >= slidesLength - 1)
                 return;
             posX -= sliderItemWidth;
             sliderMain.style = `transform: translateX(${posX}px)`;
             index++;
-        } else if (direction === -1) {
+        } else if (changed === -1) {
             index--;
             if (index < 0) {
                 index = 0;
