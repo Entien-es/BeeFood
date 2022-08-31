@@ -372,6 +372,23 @@
         border-radius: 1rem;
         padding: 0;
     }
+    .semi-footer-img img {
+        display: none;
+    }
+    .semi-footer-img {
+        width: 100vw;
+        height: 50vh;
+        background-color: var(--orange-yl);
+    }
+    .semi-footer-img h2 {
+        width: 100%;
+        font-size: 2.5rem;
+    }
+    .semi-footer-img h2 a {
+        font-size: 1.3rem;
+    }
+
+
     #footer {
         padding: 40px 5% 0;
     }
@@ -386,8 +403,11 @@
         justify-content: center;
     }
     .box-footer {
-        width: 33.3333%;
-        align-items: center;
+        width: 40%;
+        padding: 0;
+    }
+    .box-footer ul {
+        padding-top: 8px;
     }
     .follow-us >
     #follow-usId, h5 {
@@ -396,6 +416,10 @@
     .ti-facebook, .ti-twitter-alt {
         margin: 100px 0;
         padding: 0;
+    }
+    .f-end > .flex {
+        flex-direction: column;
+        align-items: center;
     }
     
 
