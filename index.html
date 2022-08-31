@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="./assets/css/click.css">
     <link rel="stylesheet" href="./assets/css/slider.css">
     <link rel="stylesheet" href="./assets/css/responsive.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://unpkg.com/cd-themify-icons@0.0.1/index.css">
 </head>
 
@@ -51,30 +51,32 @@
     </header>
     <div>
         <div class="slider position-re">
-            <i class="flex fa-solid fa-angle-right slider-next"></i>
-            <ul class="slider-dot">
+            <i class="fa-solid fa-angle-left slider-prev position-ab"></i>
+            <ul class="slider-dot flex position-ab">
                 <li class="slider-dot-item">
-                    <i class="fa fa-dot-circle"></i>
+                    <i class="fa-solid fa-circle"></i>
                 </li>
                 <li class="slider-dot-item">
-                    <i class="fa fa-dot-circle"></i>
+                    <i class="fa-solid fa-circle"></i>
                 </li>
                 <li class="slider-dot-item">
-                    <i class="fa fa-dot-circle"></i>
+                    <i class="fa-solid fa-circle"></i>
                 </li>
             </ul>
-            <div class="slider-main flex">
-                <div class="slider-item">
-                    <img src="./assets/img/slides-show/crispy-sandwiches.png">
-                </div>
-                <div class="slider-item">
-                    <img src="./assets/img/slides-show/fried-chicken.png">
-                </div>
-                <div class="slider-item">
-                    <img src="./assets/img/slides-show/pizza.png">
+            <div class="slider-wrap">
+                <div class="slider-main flex position-re">
+                    <div class="slider-item">
+                        <img src="./assets/img/slides-show/crispy-sandwiches.png">
+                    </div>
+                    <div class="slider-item">
+                        <img src="./assets/img/slides-show/fried-chicken.png">
+                    </div>
+                    <div class="slider-item">
+                        <img src="./assets/img/slides-show/pizza.png">
+                    </div>
                 </div>
             </div>
-            <i class="flex fa-solid fa-angle-left slider-prev"></i>
+            <i class="flex fa-solid fa-angle-right slider-next flex position-ab"></i>
         </div>
     </div>
     <section id="sec1">
@@ -345,6 +347,7 @@
     </footer>
     <script src="./data/js/lightbox.js"></script>
     <script src="./data/js/coming.js"></script>
+    <script src="./data/js/slider.js"></script>
 </body>
 
 </html>

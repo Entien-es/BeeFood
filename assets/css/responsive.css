@@ -83,6 +83,7 @@
     }
 } 
 @media screen and (min-width: 481px) and (max-width: 960px)  {
+    
     .fl-icon span {
         display: none;
     }
@@ -126,7 +127,7 @@
     ul.flex {
         display: none;
     }
-    .title-dis {
+    .title-dis, #Popular-Items {
         font-size: 30px;
         padding: 0;
         padding-top: 20px;

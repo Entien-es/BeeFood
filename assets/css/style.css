@@ -160,7 +160,7 @@ html {
     height: 80px;
     background-color: var(--semi-white);
     width: 100%;
-    z-index: 1;
+    z-index: 10;
 }
 
 .container-h {
@@ -421,6 +421,11 @@ h2.mgbt-64 {
 .popular-list {
     width: 100%;
     overflow: hidden;
+}
+.popular-inf img {
+    width: 100%;
+    border-radius: 1rem;
+    padding: 10px;
 }
 
 /**
