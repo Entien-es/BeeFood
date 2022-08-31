@@ -50,6 +50,9 @@
         flex-wrap: wrap;
         justify-content: center;
     }
+    .sec3 {
+        margin: 0;
+    }
     .sec3-f {
         flex-wrap: wrap;
         justify-content: center;
@@ -83,7 +86,6 @@
     }
 } 
 @media screen and (min-width: 481px) and (max-width: 960px)  {
-    
     .fl-icon span {
         display: none;
     }
@@ -195,6 +197,10 @@
         width: 100%;
         border-radius: 0;
     }
+
+    .popular-inf .btn {
+        padding: 1vh 4vw;
+    }
     
 
 }
@@ -266,14 +272,12 @@
     }
     div .text-center {
         width: 100%;
+        padding: 0 2rem;
     }
     .container-1 {
         display: flex;
         flex-wrap: wrap-reverse;
         height: 1000px;
-    }
-    .card-body {
-        width: 100%;    
     }
     .btn {
         position: relative;
@@ -321,17 +325,16 @@
         width: 100%;
     }
     .time-out-base>p {
-        font-size: 30px;
+        font-size: 2rem;
     }
     .time-out-base {
         width: 100%;
-        height: 50px;
     }
     .info-dis {
         padding-top: 1rem;
     }
     .info-dis h3 {
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
     .detials-dis {
         font-size: 5rem;
@@ -349,15 +352,22 @@
     }
     .text-align.pdrl-16 {
         width: 50%;
-        font-size: 1.4rem;
+        font-size: 1.5rem;
     }
     .text-align.pdrl-16 img {
-        width: 3rem;
+        width: 6rem;
     }
     .decr-s3 {
         font-size: 2rem;
         padding: 0;
     }
+    /* .text-align.pdrl-16.end-secf3 img {
+        padding: 8px 0;
+        width: 8rem;
+    } */
+
+
+
     #Popular-Items {
         font-size: 3.5rem;
         text-align: center;
@@ -367,11 +377,22 @@
         flex-wrap: wrap;
         justify-content: center;
     }
+    .popular-inf {
+        width: 100%;
+    }
     .popular-inf img {
         width: 90vw;
         border-radius: 1rem;
         padding: 0;
     }
+    .card-body-content h3 {
+        font-size: 2rem;
+    }
+    .card-body-content .orange-yl {
+        font-size: 1.5rem;
+    }
+
+
     .semi-footer-img img {
         display: none;
     }
@@ -420,6 +441,9 @@
     .f-end > .flex {
         flex-direction: column;
         align-items: center;
+    }
+    .f-end {
+        height: 8rem;
     }
     
 

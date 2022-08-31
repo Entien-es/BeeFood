@@ -92,7 +92,9 @@ html {
 .white {
     color: #fff;
 }
-
+.orange-yl {
+    color: var(--orange-yl);
+}
 .position-re {
     position: relative;
 }
@@ -402,10 +404,22 @@ h2.mgbt-64 {
     width: 100%;
     overflow: hidden;
 }
+.popular-inf {
+    width: 20vw;
+    margin: 0 .4vw;
+}
+.popular-inf .card-body {
+    margin: 0;
+    padding: 10px 0;
+
+}
+.popular-inf .btn {
+    padding: 1vh 6vw;
+    margin: 0;
+}
 .popular-inf img {
     width: 100%;
     border-radius: 2rem;
-    padding: 10px;
 }
 /**
  * sm footer
