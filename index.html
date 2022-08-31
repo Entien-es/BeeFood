@@ -28,7 +28,10 @@
                         <img width="120px" src="./assets/img/img-main/bee-food.png">
                     </a>
                 </div>
-                <ul class="flex">
+                <ul class="flex menu-header">
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
                     <li>
                         <a href="#Daily-Discount">Daily Discount</a>
                     </li>
@@ -44,7 +47,9 @@
                     <li>
                         <a href="#">Download</a>
                     </li>
-
+                    <li>
+                        <a href="#About">About</a>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -53,15 +58,9 @@
         <div class="slider position-re">
             <i class="fa-solid fa-angle-left slider-prev position-ab"></i>
             <ul class="slider-dot flex position-ab">
-                <li class="slider-dot-item">
-                    <i class="fa-solid fa-circle"></i>
-                </li>
-                <li class="slider-dot-item">
-                    <i class="fa-solid fa-circle"></i>
-                </li>
-                <li class="slider-dot-item">
-                    <i class="fa-solid fa-circle"></i>
-                </li>
+                <li class="slider-dot-item" data-index="0"></li>
+                <li class="slider-dot-item" data-index="1"></li>
+                <li class="slider-dot-item" data-index="2"></li>
             </ul>
             <div class="slider-wrap">
                 <div class="slider-main flex position-re">
@@ -280,8 +279,11 @@
             </div>
         </div>
     </section>
-    <footer>
+    <footer id="About">
         <div id="footer">
+            <h1 class="text-align">
+                About
+            </h1>
             <div class="flex">
                 <div class="box-footer">
                     <h4>COMPANY</h4>

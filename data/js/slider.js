@@ -4,12 +4,23 @@ window.addEventListener("load", function () {
     const sliderItem = document.querySelectorAll(".slider-item");
     const nextSliderBtn = document.querySelector(".slider-next");
     const prevSliderBtn = document.querySelector(".slider-prev");
-    const dotItem = document.querySelectorAll(".slider-dot-item");
+    const dotItems = document.querySelectorAll(".slider-dot-item");
     const sliderItemWidth = sliderItem[0].offsetWidth;
     const slidesLength = sliderItem.length;
 
     let posX = 0;
     let index = 0;
+
+    [...dotItems].forEach((item) => item.addEventListener("click", function (e) {
+        [...dotItems].forEach((re) => re.classList.remove("activeSlide"))
+            e.target.classList.add("activeSlide");
+            const dotIdex = parseInt(e.target.dataset.index);
+            index = dotIdex;
+            posX = -index * sliderItemWidth;
+            sliderMain.style = `transform: translateX(${posX}px)`;
+        
+        })
+    );
     nextSliderBtn.addEventListener("click", function() {
         changeSlides(1);
     });
