@@ -7,6 +7,32 @@ window.addEventListener("load", function () {
     const dotItem = document.querySelectorAll(".slider-dot-item");
     const sliderItemWidth = sliderItem[0].offsetWidth;
     const slidesLength = sliderItem.length;
-    console.log(sliderItemWidth);
+
+    let posX = 0;
+    let index = 0;
+    nextSliderBtn.addEventListener("click", function() {
+        changeSlides(1);
+    });
+    prevSliderBtn.addEventListener("click", function() {
+        changeSlides(-1);
+    });
+    function changeSlides(direction) {
+        if (direction === 1) {
+            index++;
+            if (index >= slidesLength)
+                return;
+            posX -= sliderItemWidth;
+            sliderMain.style = `transform: translateX(${posX}px)`;
+        } else if (direction === -1) {
+            index--;
+            if (index <= 0) {
+                index = 0;
+                return;
+            }
+            posX += sliderItemWidth;
+            sliderMain.style = `transform: translateX(${posX}px)`;
+        }
+    }
+
 
 });
