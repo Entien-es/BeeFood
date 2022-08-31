@@ -18,19 +18,21 @@ window.addEventListener("load", function () {
     });
     function changeSlides(direction) {
         if (direction === 1) {
-            index++;
-            if (index >= slidesLength)
+            if (index >= slidesLength - 1)
                 return;
             posX -= sliderItemWidth;
             sliderMain.style = `transform: translateX(${posX}px)`;
+            index++;
+            console.log(index);
         } else if (direction === -1) {
             index--;
-            if (index <= 0) {
+            if (index < 0) {
                 index = 0;
                 return;
             }
             posX += sliderItemWidth;
             sliderMain.style = `transform: translateX(${posX}px)`;
+            console.log(index);
         }
     }
 

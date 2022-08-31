@@ -12,9 +12,9 @@
     width: 100%;
     overflow: hidden;
 }
-/* .slider-main {
-
-} */
+.slider-main {
+    transition: .5s;
+}
 .slider-item {
     flex: 1 0 100vw;
     padding: 0 10vw;
