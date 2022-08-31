@@ -186,13 +186,13 @@ ul.menu-header li {
 .container-1 {
     padding-bottom: 20px;
     height: 540px;
-    justify-content: space-around;
+    justify-content: center;
     background-image: linear-gradient(135deg, var(--orange-yl), var(--red-org));
 }
 
 .text-center {
-    padding: 4rem 2rem 0;
-    width: 34%;
+    padding: 4rem 0;
+    width: 40vw;
 }
 
 .text-h1 {
@@ -224,7 +224,7 @@ ul.menu-header li {
     flex-direction: column;
     margin-top: 2rem;
     padding-top: 12px;
-    width: 140%;
+    width: 100%;
     background-color: #fff;
     border-radius: 1rem;
 }
