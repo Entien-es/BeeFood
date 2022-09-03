@@ -531,8 +531,7 @@ h2.mgbt-64 {
     font-size: 2rem;
 }
 .Install-the-app {
-    width: 100%;
-    justify-content: center;
+    padding: 0 10%;
 }
 .Install-the-app img {
     width: 80vh;
@@ -550,7 +549,6 @@ h2.mgbt-64 {
 }
 .download-text .flex {
     padding: 4vh 0;
-    justify-content: space-around;
     align-items: center;
 }
 .download-text img{
