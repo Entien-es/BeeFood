@@ -122,7 +122,11 @@ html {
 .space-bd {
     border-top: 1px solid #F17228;
 }
-
+.btn {
+    margin: 0 24px;
+    padding: 8px 28px;
+    background-color: var(--red-org);
+}
 
 /**
  * Header
@@ -143,14 +147,12 @@ html {
     line-height: 80px;
     background-color: rgba(255, 153, 0, .3);
     justify-content: space-around;
-
 }
 .logo-page {
     margin-top: 16px;
 }
 ul.menu-header li {
-    padding: 0 16px;
-    
+    padding: 0 16px; 
 }
 
 .flex>li>a {
@@ -168,11 +170,6 @@ ul.menu-header li {
     cursor: pointer;
     order: 1;
     display: none;
-}
-.btn {
-    margin: 0 24px;
-    padding: 8px 28px;
-    background-color: var(--red-org);
 }
 
 /**
@@ -344,7 +341,9 @@ ul.menu-header li {
     padding: 20px 0 0;
 }
 
-.time-out-base {
+.time-out-base,
+.open-tomorrow,
+.open-now {
     margin: 10px 0;
     background-color: var(--al-org);
     text-align: center;
@@ -353,10 +352,13 @@ ul.menu-header li {
     height: 40px;
 }
 
-.time-out-base>p {
+.time-out-base > p,
+.open-tomorrow > p,
+.open-now > p {
     font-size: 20px;
     font-weight: 700;
     color: var(--red-org);
+    line-height: 1.8;
 }
 
 /** 
@@ -380,7 +382,7 @@ h2.mgbt-64 {
     font-size: 40px;
 }
 #How-does-it-work {
-    padding-top: 20px;
+    padding-top: 12vh;
 }
 .text-align.pdrl-16 {
     padding-bottom: 20px;
@@ -398,7 +400,7 @@ h2.mgbt-64 {
 #Popular-Items {
     font-size: 40px;
     color: var(--red-org);
-    padding: 80px 0 20px;
+    padding: 20vh 0 10vh;
 }
 .popular-list {
     width: 100%;
@@ -421,6 +423,141 @@ h2.mgbt-64 {
     width: 100%;
     border-radius: 2rem;
 }
+
+
+/**
+ * Sec5
+ */
+#sec5 {
+    margin: 0 2vw;
+    height: 200vh;
+    user-select: none;
+}
+#Featured-Restaurants {
+    font-size: 40px;
+    color: var(--red-org);
+    padding: 20vh 0 10vh;
+}
+.container-s5 {
+    flex-wrap: wrap;
+}
+.featuredItems {
+    width: calc(100%/4);
+    padding: 1vh;
+    flex-direction: column;
+}
+.featuredItems > img {
+    width: 100%;
+    border-radius: 1rem;
+}
+.card-img-overplay {
+    padding: .8rem;
+    font-size: 1.3rem;
+    color: white;
+}
+.tag-overplay {
+    margin-right: 1rem;
+    padding: 0 .5rem;
+    background-color: var(--red-org);
+}
+.clock-overplay {
+    padding: 0 .5rem;
+    background-color: var(--orange-yl);
+}
+.tag-overplay span, .clock-overplay span {
+    font-size: 1.2rem;
+}
+.logo-restaurants {
+    padding: .5rem 0;
+}
+.logo-restaurants-inf {
+    padding: .5rem;
+}
+.fa-star {
+    color: var(--orange-yl);
+}
+.fa-star span {
+    margin-left: .3rem;
+}
+.open-now {
+    background-color: rgba(96, 255, 3, 0.2);
+}
+.open-now > p {
+    color: #79B93C;
+}
+.open-tomorrow, .open-now {
+    width: 14vw;
+}
+.ftr-btn-view {
+    cursor: pointer;
+    border-radius: 1rem;
+    bottom: 0;
+    right: 50%;
+    transform: translate(50%, 250%);
+}
+/**
+ * Download section
+ */
+.bg-download {
+    width: 100%;
+    padding-top: 28vw;
+    margin-bottom: 20vw;
+    overflow: hidden;
+    background-color: #FEEFD0;
+    
+}
+.bg-download > img {
+    width: 100vw;
+}
+.card-download {
+    border-radius: 2rem;
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
+    background-color: #fff;
+    left: 50%;
+    top: 15%;
+    transform: translate(-50%, -15%);
+}
+.card-download img {
+    padding: 4vh 0;
+}
+.card-download-banner {
+    background-clip: border-box;
+    align-items: center;
+    background: linear-gradient(50deg, #fb3c00, #ffb800);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2rem;
+}
+.Install-the-app {
+    width: 100%;
+    justify-content: center;
+}
+.Install-the-app img {
+    width: 80vh;
+}
+.download-text {
+    padding: 6vh;
+}
+.download-text h2 {
+    padding-bottom: 1vh;
+    font-size: 2.5rem;
+    color: var(--orange-yl);
+}
+.download-text p {
+    color: rgba(0, 0, 0, 0.7)
+}
+.download-text .flex {
+    padding: 4vh 0;
+    justify-content: space-around;
+    align-items: center;
+}
+.download-text img{
+    width: 14vw;
+}
+
+
 /**
  * sm footer
  */

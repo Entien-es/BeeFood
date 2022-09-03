@@ -2,70 +2,7 @@
     
 }
 @media screen and (min-width: 1025px) and (max-width: 1200px){
-    ul.flex {
-        display: none;
-    }
-    .ti-menu {
-        display: block;
-    }
-    .form-h {
-        display: none;
-    }
-    div .text-center {
-        width: 100%;
-    }
-    .container-1 {
-        display: flex;
-        flex-wrap: wrap-reverse;
-        height: 1000px;
-    }
-    .card-body {
-        width: 100%;    
-    }
-    .btn {
-        position: relative;
-        right: 0;
-        margin-top: 1rem;
-        margin-left: 0;
-    }
-    #sec1 {
-        height: 0px;
-    }
-    .ti-location-pin {
-        top: 40px;
-    }
-    .form-b-start {
-        flex-wrap: wrap;
-    }
-    .form-b-start > input {
-        width: 84%;
-    }
-    #sec2 {
-        position: relative;
-        display: flex;
-        flex-wrap: wrap;
-        height: 2200px;
-    }
-    .main-discount {
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-    .sec3 {
-        margin: 0;
-    }
-    .sec3-f {
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-    #footer {
-        padding: 40px 5% 0;
-    }
-    #footer > .flex {
-        flex-wrap: wrap;
-    }
-    .slider-item img {
-        width: 60%;
-    }
+
 }
 @media screen and (min-width: 961px) and (max-width: 1024px) {
     .lightbox-content img {
@@ -126,9 +63,6 @@
     .detials-dis span {
         font-size: 30px;
     }
-    ul.flex {
-        display: none;
-    }
     .title-dis, #Popular-Items {
         font-size: 30px;
         padding: 0;
@@ -188,21 +122,95 @@
         font-size: 30px;
         margin: 10px;
     }
-    
+
+
+    #sec5 {
+        margin: 0 2vw;
+        height: 140vh;
+        user-select: none;
+    }
+    .featuredItems {
+        width: calc(100%/3);
+    }
+    .open-now, .open-tomorrow {
+        width: 100%;
+    }
+    .ftr-btn-view {
+        padding: 10px;
+        font-size: 1.5rem;
+        margin: 0;
+        transform: translate(50%, 130%);
+    }
     .slider {
         padding: 0;
-        height: 370px;
     }
     .slider img {
         width: 100%;
-        border-radius: 0;
     }
 
     .popular-inf .btn {
         padding: 1vh 4vw;
     }
-    
-
+    .container-h {
+        justify-content: space-between;
+        padding: 0 10%;
+    }
+    .checkbtn {
+        display: block;
+    }
+    ul.menu-header {
+        top: 80px;
+        flex-direction: column;
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        left: -100%;
+        transition: all .2s;
+        background: #2c3e40;
+        text-align: center;
+    }
+    .flex>li>a {
+        color: white;
+        display: block;
+    }
+    .container-h.flex.position-re > .flex a:hover {
+        font-size: 26px;
+        color: var(--red-org);
+        background-color: white;
+    }
+    ul.menu-header li {
+        padding: 0;
+        font-size: 24px;
+    }
+    #Featured-Restaurants {
+        padding: 8vh 0 2vh;
+    }
+    .Install-the-app > img {
+        display: none;
+    }
+    .card-download {
+        width: 90%;
+        padding: 10px;
+    }
+    .card-download img {
+        padding: 0;
+    }
+    .download-text {
+        padding: 1.5rem 10vw;
+    }
+    .download-text .flex {
+        padding: 1vh 0;
+        justify-content: start;
+    }
+    .download-text p {
+        font-size: 1rem;
+    }
+    .download-text img {
+        width: 20vw;
+    }
+    .card-download-banner {
+        flex-direction: column;
+    }
 }
 @media screen and (min-width: 320px) and (max-width: 480px) {
     html {
@@ -245,8 +253,7 @@
         bottom: 0;
     }
     .slider-next, .slider-prev {
-        font-size: 50px;
-        
+        font-size: 50px;  
     }
     .slider-prev {
         left: 0;
@@ -309,7 +316,6 @@
     .main-discount {
         flex-wrap: wrap;
     }
-    
     .title-dis {
         font-size: 30px;
         padding-top: 10px;
@@ -320,7 +326,6 @@
         height: 15vh;
         width: 30vw;
     }
-   
     .item-dis img {
         width: 100%;
     }
@@ -365,10 +370,7 @@
         padding: 8px 0;
         width: 8rem;
     }
-
-
-
-    #Popular-Items {
+    #Popular-Items, #Featured-Restaurants {
         font-size: 3.5rem;
         text-align: center;
         padding: 20px;
@@ -392,7 +394,52 @@
         font-size: 1.5rem;
     }
 
+    #sec5 {
+        height: 180vh;
+    }
 
+    .featuredItems {
+        width: 50%;
+    }
+    .open-now, .open-tomorrow {
+        width: 100%;
+    }
+    .ftr-btn-view {
+        left: 50%;
+        transform: translateX(-50%);
+        padding: 10px;
+        font-size: 1.5rem;
+    }
+
+
+    .bg-download {
+        padding-top: 70vh;
+        margin-bottom: 0;
+        height: 200vw;
+    }
+    .card-download {
+        flex-direction: column;
+        width: 90%;
+    }
+    .card-download img {
+        padding: 1vh;
+    }
+    .Install-the-app {
+        width: auto;
+    }
+    .Install-the-app > img {
+        display: none;
+    }
+    .download-text {
+        position: relative;
+        bottom: 32px;
+    }
+    .download-text p {
+        font-size: 1.4rem;
+    }
+    .download-text img {
+        width: 40vw;
+    }
     .semi-footer-img img {
         display: none;
     }
