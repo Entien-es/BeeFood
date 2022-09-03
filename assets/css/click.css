@@ -5,3 +5,6 @@
     background-color: #FDE9DE;
     color: var(--red-org);
 }
+.slider-next:hover, .slider-prev:hover {
+    color: var(--red-org);
+}
