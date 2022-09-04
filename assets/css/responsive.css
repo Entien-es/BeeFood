@@ -431,6 +431,7 @@
         display: none;
     }
     .download-text {
+        padding: 0;
         position: relative;
         bottom: 32px;
     }
