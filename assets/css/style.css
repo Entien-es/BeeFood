@@ -296,7 +296,7 @@ ul.menu-header li {
     cursor: pointer;
 }
 .main-discount {
-    padding-bottom: 28px;
+    padding: 0 28px 28px;
 }
 .title-dis {
     font-size: 40px;
@@ -304,12 +304,12 @@ ul.menu-header li {
 }
 
 .item-dis {
-    justify-content: center;
+    justify-content: space-around;
 }
 
 .item-dis img {
     border-radius: 1rem;
-    width: 98%;
+    width: 100%;
 }
 
 .dis-banner {
