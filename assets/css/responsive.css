@@ -426,6 +426,7 @@
     }
     .Install-the-app {
         width: auto;
+        margin-top: 7rem;
     }
     .Install-the-app > img {
         display: none;
